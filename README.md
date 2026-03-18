@@ -1,30 +1,64 @@
-# enterprise-ai-dashboard
+# Enterprise Ai Dashboard
 
-**Executive dashboard for enterprise AI monitoring**
+Executive dashboard for enterprise AI monitoring
 
-## Install
+## Features
+
+- Alerts.ts
+Api.ts
+Cost-tracker.ts
+Dashboard.ts
+Index.ts
+Metrics.ts
+Model-registry.ts
+Usage-analytics.ts
+
+## Tech Stack
+
+- **Language:** TypeScript
+- **Framework:** Next.js
+- **Key Dependencies:** dependencies,^12.0.0,^3.23.0,^4.75.0,devDependencies,^5.7.0,^4.19.0,^2.0.0
+- **Containerization:** Docker + Docker Compose
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Docker & Docker Compose (optional)
+
+### Installation
+
 ```bash
+git clone https://github.com/MukundaKatta/enterprise-ai-dashboard.git
+cd enterprise-ai-dashboard
 npm install
 ```
 
-## Quick Start
-```typescript
-import { VERSION } from "./src/index.js";
+### Running
+
+```bash
+npm run dev
 ```
 
-## Modules
-- **dashboard**
-- **metrics**
-- **cost-tracker**
-- **model-registry**
-- **usage-analytics**
-- **alerts**
-- **api**
+### Docker
 
-## Docker
 ```bash
-docker compose up
+docker-compose up
+```
+
+## Project Structure
+
+```
+enterprise-ai-dashboard/
+├── src/           # Source code
+├── tests/         # Test suite
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+└── README.md
 ```
 
 ## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+
+MIT
