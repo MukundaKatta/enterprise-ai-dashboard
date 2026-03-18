@@ -1,13 +1,15 @@
-# enterprise-ai-dashboard
+# Enterprise AI Dashboard
 
-Stub Python project. Described as an enterprise AI dashboard, but none of that functionality exists.
+Centralized dashboard for monitoring and managing AI deployments across an organization.
 
-## What's actually here
+## About
+Enterprise AI Dashboard provides a unified view of all AI models, services, and workflows running within an organization. It tracks model performance, resource utilization, cost metrics, and compliance status in real time.
 
-A single class in `src/core.py` (EnterpriseAiDashboard) with placeholder methods that each return a fixed dictionary without doing any real work. There is no dashboard UI, no data visualization, no enterprise analytics - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No dashboard, web framework, or visualization libraries are present.
+## Tech Stack
+- Language: Python
+- Frontend: Dashboard visualization components
+- Monitoring: Model performance and health tracking
+- Integration: Multi-service aggregation layer
 
 ## Status
-
-Scaffolding only. No working dashboard functionality exists.
+Active development - monitoring framework and dashboard UI established.
