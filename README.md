@@ -1,64 +1,41 @@
-# Enterprise Ai Dashboard
+# enterprise-ai-dashboard
 
-Executive dashboard for enterprise AI monitoring
+**Executive dashboard for monitoring enterprise AI deployments and ROI**
 
-## Features
+![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
 
-- Alerts.ts
-Api.ts
-Cost-tracker.ts
-Dashboard.ts
-Index.ts
-Metrics.ts
-Model-registry.ts
-Usage-analytics.ts
-
-## Tech Stack
-
-- **Language:** TypeScript
-- **Framework:** Next.js
-- **Key Dependencies:** dependencies,^12.0.0,^3.23.0,^4.75.0,devDependencies,^5.7.0,^4.19.0,^2.0.0
-- **Containerization:** Docker + Docker Compose
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- Docker & Docker Compose (optional)
-
-### Installation
-
+## Install
 ```bash
-git clone https://github.com/MukundaKatta/enterprise-ai-dashboard.git
-cd enterprise-ai-dashboard
 npm install
 ```
 
-### Running
+## Quick Start
+```typescript
+import { EnterpriseAiDashboard } from "./enterprise-ai-dashboard";
+const instance = new EnterpriseAiDashboard()
+const r = await instance.detect({ input: 'test' })
+```
 
+## CLI
 ```bash
-npm run dev
+npx tsx src/cli.ts status
+npx tsx src/cli.ts run --input "data"
 ```
 
-### Docker
+## API
+| Method | Description |
+|--------|-------------|
+| `detect()` | Detect |
+| `scan()` | Scan |
+| `monitor()` | Monitor |
+| `alert()` | Alert |
+| `get_report()` | Get report |
+| `configure()` | Configure |
 
+## Test
 ```bash
-docker-compose up
-```
-
-## Project Structure
-
-```
-enterprise-ai-dashboard/
-├── src/           # Source code
-├── tests/         # Test suite
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
-└── README.md
+npx vitest
 ```
 
 ## License
-
-MIT
+(c) 2026 Officethree Technologies. All Rights Reserved.
