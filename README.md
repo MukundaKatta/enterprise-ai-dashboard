@@ -1,39 +1,13 @@
 # enterprise-ai-dashboard
 
-**Executive dashboard for monitoring enterprise AI deployments and ROI**
+Stub Python project. Described as an enterprise AI dashboard, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-npm install
-```
+A single class in `src/core.py` (EnterpriseAiDashboard) with placeholder methods that each return a fixed dictionary without doing any real work. There is no dashboard UI, no data visualization, no enterprise analytics - just stubs.
 
-## Quick Start
-```typescript
-import { EnterpriseAiDashboard } from "./enterprise-ai-dashboard";
-const instance = new EnterpriseAiDashboard()
-const r = await instance.detect({ input: 'test' })
-```
+The project uses only Python standard library imports (time, logging, json, typing). No dashboard, web framework, or visualization libraries are present.
 
-## CLI
-```bash
-npx tsx src/cli.ts status
-npx tsx src/cli.ts run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `detect()` | Detect |
-| `scan()` | Scan |
-| `monitor()` | Monitor |
-| `alert()` | Alert |
-| `get_report()` | Get report |
-| `configure()` | Configure |
-
-## Test
-```bash
-npx vitest
-```
-
+Scaffolding only. No working dashboard functionality exists.
